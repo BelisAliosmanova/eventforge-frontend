@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Set;
 
-@FeignClient(name = "authentication-api-client" ,url = "https://eventgorge-api.up.railway.app/auth")
+@FeignClient(name = "authentication-api-client" ,url = "https://eventgorge-api.up.railway.app")
 
 public interface AuthenticationApiClient {
 
